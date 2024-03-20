@@ -2,11 +2,108 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin:0;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:20px;
+    background-color: #1F2937;
+    min-height: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight:bold;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration:none;
+    font-size:18px;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+li {
+    color: #E5E7EB;
 }
 
 .content {
-    display: flex;
+    display:flex;
+    flex-direction:column;
     flex:auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1F2937;
+    padding: 50px;
+    gap:100px;
+}
+
+.h1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+    max-width: 450px;
+    gap:20px;
+}
+
+.h1-left-title {
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    text-wrap:wrap;
+    max-width:400px;
+}
+
+.h1-left-subtext {
+    font-size:18px;
+    text-wrap:wrap;
+    color: #E5E7EB;
+}
+
+.h1-sign-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882F6;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.sign-button {
+    padding: 10px 25px 10px 25px;
+}
+
+a.sign-button,a:hover.sign-button {
+    color: #E5E7EB;
+    font-size:25px;
+    text-decoration:none;
+}
+
+.h1-right {
+    width:500px;
+}
+
+.big-sign-text {
+    background-color:#3882F6;
+}
+
+.h4-sign-button {
+    background-color:#3882F6;
 }
 
 .footer {
@@ -17,3 +114,12 @@ body {
     bottom: 0;
     width: 100;
 }
+
+
+
+
+
+
+
+
+
